@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -36,3 +37,30 @@
     transform: rotate(360deg);
   }
 }
+
+.custom-grid-style .dx-datagrid-rowsview .dx-row:nth-child(odd) {
+  background-color: #f9f9f9; /* Alternatif satırlar için açık gri arka plan */
+}
+
+.custom-grid-style .dx-row:hover {
+  background-color: #e3f2fd; /* Hover durumunda mavi arka plan */
+}
+
+/* styles.css */
+.custom-data-grid {
+  max-width: 100%;
+  overflow-x: auto; /* Horizontal scrolling */
+  white-space: nowrap; /* Prevent column wrapping */
+}
+
+
+.custom-button {
+  background-color: #1976d2;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #115293;
+}
+
